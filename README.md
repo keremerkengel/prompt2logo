@@ -1,3 +1,4 @@
+
 # Prompt'tan Logo Üretici
 
 Bu proje, kullanıcının yazdığı kısa bir tanıma (prompt) göre yapay zeka destekli logo varyasyonları üretir. Arayüz Streamlit ile, görsel üretimi ise Stable Diffusion ile sağlanmıştır.
@@ -20,7 +21,6 @@ Bu proje, kullanıcının yazdığı kısa bir tanıma (prompt) göre yapay zeka
 - Stable Diffusion (Automatic1111) – görsel üretimi
 - Pillow (PIL) – görsel işleme
 - requests – API istekleri
-- python-dotenv – gizli bilgileri yönetme
 
 ---
 
@@ -28,9 +28,9 @@ Bu proje, kullanıcının yazdığı kısa bir tanıma (prompt) göre yapay zeka
 
 | Prompt | Logo |
 |--------|------|
-| finance logo | ![Örnek](/examples/finance.png) |
-| fitness logo | ![Örnek](/examples/fitness.png) |
-| futbol  logo | ![Örnek](/examples/football.png) |
+| minimalist finance logo | ![Örnek](/examples/finance.png) |
+| eğlenceli fitness uygulaması | ![Örnek](/examples/fitness.png) |
+| futbol takımı logosu | ![Örnek](/examples/football.png) |
 
 ---
 
@@ -41,7 +41,20 @@ git clone https://github.com/keremerkengel/prompt2logo.git
 cd prompt2logo
 
 pip install -r requirements.txt
+```
 
+### Stable Diffusion (Automatic1111) için:
+
+```bash
+cd stable-diffusion-webui
+webui-user.bat --api
+```
+
+Bu komut, Stable Diffusion WebUI’yi API üzerinden erişilebilir hale getirir. Bu olmadan uygulama görsel üretemez.
+
+### Uygulamayı başlatmak için:
+
+```bash
 streamlit run app.py
 ```
 
@@ -53,7 +66,7 @@ streamlit run app.py
 prompt2logo/
 ├── app.py
 ├── README.md
-├── requirements.txt       
+├── requirements.txt
 └── examples/         # örnek logolar
 ```
 
@@ -62,13 +75,11 @@ prompt2logo/
 ## Geliştirici
 
 **Kerem Erkengel**  
-Yapay zeka destekli içerik üretimi ve arayüz geliştirme alanında çalışan bir geliştirici.
-
-GitHub: https://github.com/keremerkengel
-Website: https://www.keremerkengel.com.tr/
+Yapay zeka destekli içerik üretimi ve arayüz geliştirme alanında çalışan bir geliştirici.  
+GitHub: https://github.com/keremerkengel  
+Website: https://www.keremerkengel.com.tr/  
 LinkedIn: https://www.linkedin.com/in/keremerkengel/
-
-
+ 
 ---
 
 ## Lisans
