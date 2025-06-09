@@ -51,6 +51,24 @@ st.markdown("""
     .download-button:visited {
         color: white !important;
     }
+    
+    .developer-info {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        border-top: 1px solid #e0e0e0;
+    }
+    
+    .developer-link {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .developer-link:hover {
+        color: #764ba2;
+        text-decoration: underline;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -110,3 +128,10 @@ if st.button("Logo Varyasyonları Oluştur"):
                 except Exception as e:
                     with cols[i]:
                         st.error(f"Hata (Varyasyon {i+1}): {e}")
+
+# Geliştirici bilgisi
+st.markdown("""
+<div class="developer-info">
+    <p>Geliştirici: <a href="https://www.linkedin.com/in/keremerkengel/" target="_blank" class="developer-link">Kerem Erkengel</a></p>
+</div>
+""", unsafe_allow_html=True)
