@@ -28,8 +28,8 @@ Bu proje, kullanıcının yazdığı kısa bir tanıma (prompt) göre yapay zeka
 
 | Prompt | Logo |
 |--------|------|
-| minimalist finance logo | ![Örnek](/examples/finance.png) |
-| eğlenceli fitness uygulaması | ![Örnek](/examples/fitness.png) |
+| finance logo | ![Örnek](/examples/finance.png) |
+| fitness uygulaması | ![Örnek](/examples/fitness.png) |
 | futbol takımı logosu | ![Örnek](/examples/football.png) |
 
 ---
