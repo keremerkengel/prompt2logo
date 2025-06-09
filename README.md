@@ -62,7 +62,8 @@ prompt2logo/
 ## Geliştirici
 
 **Kerem Erkengel**  
-Yapay zeka destekli içerik üretimi ve arayüz geliştirme alanında çalışan bir geliştirici.  
+Yapay zeka destekli içerik üretimi ve arayüz geliştirme alanında çalışan bir geliştirici.
+
 GitHub: https://github.com/keremerkengel
 Website: https://www.keremerkengel.com.tr/
 LinkedIn: https://www.linkedin.com/in/keremerkengel/
